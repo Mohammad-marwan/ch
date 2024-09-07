@@ -9,7 +9,7 @@ export default function Player() {
 
   function handlePlusClick(e) {
     e.preventDefault();
-   setPlayer({...player, }) ;
+   setPlayer({...player,score:player.score+1 }) ;
     console.log(player.score+1);
   }
 
